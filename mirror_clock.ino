@@ -68,7 +68,7 @@ void loop() {
     lcd.print("!! GO !!");
     delay(1000);
     lcd.clear();
-    countdown(2, 0, 8, 1);
+    countdown(3, 0, 8, 1);
     
   }
   else{
