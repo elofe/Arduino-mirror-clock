@@ -1,0 +1,19 @@
+Günümüzde bir aletin kompakt olmasý çok revaçta olan bir özellik. Buna en iyi örnek telefonlar olabilir.
+Ben de günlük hayatýmda çok yaþadýðým bir problem olan geç kalmaya bir çözüm bulmak istedim. Geç kalmamak için
+her zaman saati bilmeliyim ve ayna, karþýsýnda uzun zamanlar geçirdiðim bir eþya. Arduino ile birlikte saati
+ve aynayý birleþtirdim. Bir de ek özellik olarak diþ fýrçalamanýz sýrasýnda sizin için zaman tutuyor. 
+
+Arduino UNO'yu kullanarak yaptýðým bu projedeki önemli parçalardan biri RTC modülüydü. Bu modül sayesinde gerçek
+zamanlý çalýþan projeler yapabilirsiniz. LCD ekraný ise saati ve tarihi göstermek için kullandým. Belli bir uzaklýkta 
+bir nesne belirdiðinde (büyük ihtimalle bir insan) saati göstermesi için de bir mesafe sensörü kullandým. 
+Diþ fýrçalama sýrasýnda zamaný tutabilmesi için bir de düðme koydum. Düðmeye bastýðýnýzda 3 dakikalýk geri sayýmý 
+baþlatýyor. Siz de bu sýrada gönül rahatlýðýyla diþlerinizi fýrçalayabilirsiniz.
+
+Kullandýðým arduino parçalarý:
+Arduino UNO
+Breadbord (orta boy)
+DS1302 RTC modülü
+LCD2004A ekran
+HC-SR04 ultrasonik mesafe sensörü
+Push buton
+
